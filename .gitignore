@@ -1,0 +1,4 @@
+._*
+_Rhistory_*
+# local-only overrides for off-cluster / Mac runs (never commit)
+study.local.yaml
