@@ -1,6 +1,3 @@
-# Halo-XYZ
+# Halo-ABTC
 
-TEMPLATE::Study specifc files for Halo XYZ Project
-
-- Added study.yaml for setup
-
+Study specifc files for Halo ABTC Project
