@@ -1,44 +1,75 @@
-# red
-HRS: '#D83631'
+### celltype colors
+## category
+Tumor: &tumor '#EF3340'
+Tumor_All: *tumor
+Immune_All: '#2E86E0'
+Other: '#808080'
+Other_All: '#FFBD20'
 
-# blues/greens
-T_All: '#2073ac'
-T_CD4: '#3475BE'  ##'#6077c4' #'#0977c4' # '#17527a'
-T_CD8: '#53AAAA' #'#2689cd'
-T_Reg4: '#749BD6'   ##'#999cdb'    ###'#819cdb'  # '#3f9cdb'
-T_Reg8: '#8FC0BF'  #'#71b5e5'
-T_RegDN: '#AEDCEC'
-T_CD4/CD8: '#4488A9' #'#c3e0f4'
+## celltype
+T_All: '#04A5FF'
+B_All: '#47D188'
+NK_All: '#F09E51'
+Myeloid_All: '#AC50E6'
+Leukocyte_Other: &leuk '#D6D8D6'
+Other_leuk: *leuk
+Endo: '#F0E862'
+Astro: '#FFD3A1'
+OPC: '#AC8E6C'
+Neuron: '#806950'
+
+## subtype
+T_CD4: '#63C5DA' 
+T_CD8: '#48AAAD' 
+T_Reg4: '#0492C2'
+T_Reg8: '#005558'
+T_RegDN: '#1F456E'
+T_CD4_CD8: '#4488A9' 
 T_Null: '#DBF6F7'
+NK: '#FCAE1E'
+NKT: '#FDA172'
+NKT_CD8: '#D67229'
+NKT_CD4: '#ED820E'
+MHCIIpos_macro: '#B65FCF'
+MHCIIneg_macro: '#6A4596'
+DC: '#FC94AF'
+Microglia: '#BC6499'
+Other_macro: '#E6CBE7'
 
-# green
-B_All: '#33a547'
+superNeg: '#939393'
+Negative: '#939393'
+UNKNOWN: '#646664'
 
-# oranges
-NK_All: '#ff7423'
-NK: '#e67300'
-NKT: '#ffae80'
-NKT_CD8: '#ffcc66'
-NKT_CD4: '#ffd9b3'
-
-# purples
-Macrophage_All: '#924596'
-Macrophage_Other: '#6a4596'
-Macrophage_MHCIIpos: '#bf7bc2'
-Macrophage_MHCIIneg: '#e6cbe7'
-
-# pink
-Plasma: '#ff76b6'
-#brown
-Granulocyte: '#a24c29'
-#charcoal
-Leukocyte_Other: '#343434'
-#darkgray
-superNeg: '#7b7b7b'
-#lightgray
-UNKNOWN: '#e8e8e8'
-
-
-
-
+### overview colors
+clinical:
+    ## Main_mutational_group
+    NF1: '#AD7DC6'
+    EGFR: '#317774'
+    ## Sex
+    M: '#4D7298'                        # dark grayish teal
+    F: '#ffb4a2'                        # peach
+    ## Tumor_location
+    'Frontal lobe': '#92829e'           # grayish purple
+    'Occipital lobe': '#b07d62'         # brown
+    'Temporal lobe': '#90C2E7'          # sky blue
+    'Parietal lobe': '#f8961e'          # orange
+    'Parietoccipital lobe': '#90be6d'   # green
+    ## Patient_status
+    Alive: '#077B8A'
+    Deceased: '#D72631'
+    ## Tumor_status
+    Primary: '#fbcbc9'
+    Recurrent: '#be1558'
+    ## MGMT_methylation
+    Methylated: '#ff6e40'               # dark orange     
+    Unmethylated: '#1e3d59'             # light orange
+    ## yes/no
+    'Y': '#6290C8'
+    'N': '#f0f0f0'
+    '1': '#6290C8'
+    '0': '#f0f0f0'
+    'TRUE': '#6290C8'
+    'FALSE': '#f0f0f0'
+    Unknown: 'grey75'
+    Indeterminate: 'grey75'
 
