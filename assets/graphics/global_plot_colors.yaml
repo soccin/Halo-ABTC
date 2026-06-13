@@ -42,9 +42,13 @@ UNKNOWN: '#646664'
 
 ### overview colors
 clinical:
+    ## Study_Cohort
+    Group_A: '#D72631'
+    Reference_Group: '#fbcbc9'
     ## Main_mutational_group
     NF1: '#AD7DC6'
     EGFR: '#317774'
+    EGFR_NF1: '#757C9C'
     ## Sex
     M: '#4D7298'                        # dark grayish teal
     F: '#ffb4a2'                        # peach
@@ -72,4 +76,5 @@ clinical:
     'FALSE': '#f0f0f0'
     Unknown: 'grey75'
     Indeterminate: 'grey75'
+    Other: 'grey65'
 
